@@ -14,10 +14,16 @@ const sofia = Sofia_Sans({
   variable: "--font-sofia",
 });
 
+import Link from "next/link";
+import Navbar from "./components/Navbar";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sofia.variable} ${inter.className}`}>{children}</body>
+      <body className={`${sofia.variable} ${inter.className}`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

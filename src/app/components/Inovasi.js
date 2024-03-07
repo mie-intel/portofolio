@@ -7,7 +7,7 @@ const Inovasi = () => {
     { pic: "three.svg", text: "Aku ada kenalan ketua ukm karate kalo mau :V" },
   ];
   return (
-    <section className="relative aspect-[1003/563] bg-cyan w-full">
+    <section id="inovasi" className="relative aspect-[1003/563] bg-cyan w-full">
       <div className="absolute mx-auto my-auto z-2 right-0 left-[1.5%] top-[2%] bottom-0 aspect-[938/505] w-[93.8%] bg-darkcyan"></div>
       <div className="absolute mx-auto my-auto z-[10] right-0 left-0 top-0 bottom-0 flex flex-col justify-start items-center aspect-[938/505] w-[93.8%] bg-back">
         <div className="aspect-[938/50] mt-[5%] text-[3.8vw] text-fgcolor font-bold flex justify-center items-center text-center w-full">
