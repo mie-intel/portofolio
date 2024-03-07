@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const TerimaAku = () => {
   return (
@@ -11,15 +12,24 @@ const TerimaAku = () => {
               Terima aku yach kakack kakack 👉👈
             </div>
             <div className="aspect-[550/75] w-full pr-[6%] my-[3%] flex text-right gap-[3%] flex-row justify-end items-center text-[4vw] font-bold">
-              <div className="relative aspect-[1/1] w-[10%]">
+              <Link
+                target="_blank"
+                href="https://www.instagram.com/paryapradhanika/"
+                className="relative aspect-[1/1] w-[10%]"
+              >
                 <Image src="ig.svg" alt="" fill />
-              </div>
-              <div className="relative aspect-[1/1] w-[10%]">
+              </Link>
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/polikarpus-arya-pradhanika-2133b5256/"
+                className="relative aspect-[1/1] w-[10%]"
+              >
                 <Image src="linked.svg" alt="" fill />
-              </div>
+              </Link>
             </div>
-            <div className="aspect-[550/40] w-full pr-[6%] text-right gap-0 flex-col flex justify-center text-[2.6vw] font-bold">
-              Ayo mutualan
+            <div className="aspect-[550/40] w-full pr-[6%] text-right gap-0 flex-col flex justify-center text-[2.1vw] font-bold">
+              <span>ada mama masak bawang</span>
+              <span>terima gw bg</span>
             </div>
           </div>
         </div>

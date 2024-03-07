@@ -3,6 +3,7 @@ import Perkenalan from "./components/perkenalan";
 import Skill1 from "./components/Skill1";
 import TerimaAku from "./components/TerimaAku";
 import Website from "./components/website";
+import Inovasi from "./components/Inovasi";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Perkenalan />
       <Skill1 />
       <Website />
+      <Inovasi />
       <TerimaAku />
     </div>
   );
