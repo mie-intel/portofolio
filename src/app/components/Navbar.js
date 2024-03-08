@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [scrollTop]);
   return (
     <div
-      className={`fixed z-[50] bg-[white] aspect-[1280/75] w-full transition-all duration-300 flex flex-row justify-evenly items-center text-[1.5vw] text-fgcolor font-bold px-[20%] ${
+      className={`fixed z-[50] bg-[white] aspect-[1280/175] md:aspect-[1280/75] w-full transition-all duration-300 flex flex-row justify-evenly items-center text-[3vw] md:text-[1.5vw] text-fgcolor font-bold px-[2%] md:px-[20%] ${
         scrolling ? "-top-40" : "top-0"
       }`}
     >
